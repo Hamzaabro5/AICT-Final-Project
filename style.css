@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+}  
+img{
+    max-width: 100%;
+    height: auto;
+}
+#Latestoffer{
+    margin-left: 250px;
+    gap: 100px;
+}
+.left-nav li{
+    padding: 8px;
+}
+.right-nav li{
+    padding: 8px;
+}
+.hovergrey:hover{
+    color: #5f5f5f;
+    cursor: pointer;
+}
+.btnhovergrey{
+    background-color: #000;
+    cursor: pointer;
+}
+.btnhovergrey:hover{
+    background-color: #5f5f5f;
+    cursor: pointer;
+}
+.cardhover{
+    transition: 0.2s ease-in-out;
+}
+.cardhover:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.2s ease-in-out;
+}
+.mx-more{
+    margin: 0 230px;
+}
+
+
+.socialContainer {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #2c2c2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+}
+.containerFour{
+    position: fixed;
+    right: 10px;
+    bottom: 4%;
+}
+.containerFour:hover {
+   background-color: #128C7E;
+    transition-duration: .3s;
+}
+.socialSvg {
+    width: 24px;
+}
+.socialSvg path {
+    fill: #ffffff;
+}
+  
+.socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+}
+  
+.modaaal{
+    position: fixed;
+    right: -25px;
+    bottom: 35%;
+    rotate: 270deg;
+}
+.cartpayment{
+    margin-top: 480px;
+    margin-left: 200px;
+}
+
+
+.container {
+    position: relative;
+    --size-button: 40px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .input {
+    padding-left: var(--size-button);
+    height: var(--size-button);
+    font-size: 12px;
+    border: none;
+    color: #000000;
+    outline: none;
+    width: var(--size-button);
+    transition: all ease 0.3s;
+    background-color: #ffffff;
+    box-shadow: 1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px rgb(95 94 94 / 25%), inset 0px 0px 0px #0e0e0e, inset 0px -0px 0px #5f5e5e;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .input:focus,
+  .input:not(:invalid) {
+    width: 300px;
+    cursor: text;
+    box-shadow: 0px 0px 0px #0e0e0e, 0px 0px 0px rgb(95 94 94 / 25%), inset 1.5px 1.5px 3px #0e0e0e, inset -1.5px -1.5px 3px #5f5e5e;
+  }
+  
+  .input:focus + .icon,
+  .input:not(:invalid) + .icon {
+    pointer-events: all;
+    cursor: pointer;
+  }
+  
+  .container .icon {
+    position: absolute;
+    width: var(--size-button);
+    height: var(--size-button);
+    top: 0;
+    left: 5;
+    padding: 8px;
+    pointer-events: none;
+  }
+  
+  .container .icon svg {
+    width: 100%;
+    height: 100%;
+  }
+
+.bg-gradient{
+    height: 300px;
+}
+.watch5headingBanner{
+    background-image: linear-gradient(#a0e9ee , #68d1c3 , #c26ebb , #ff9481);
+    padding: 290px;
+}
+.watch5headingBanner h1{
+    font-size: 68px;
+    color: #ffffff6c;
+    margin: 80px 0px;
+    transition: 0.3s ease-in-out;
+}
+.watch5headingBanner h1:hover{
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.Bioactive{
+    margin-left: 400px;
+    margin-top: 150px;
+}
+.Bioactive h1{
+    font-size: 70px;
+}
+.bg-darkblue{
+    background-color: #080b1a;
+}
+.big30text{
+    font-size: 184px;
+    transition: 0.3s ease-in-out;
+}
+.big30text:hover{
+    color: #73528f;
+    transition: 0.3s ease-in-out;
+}
+.Watch5probannerheading{
+    margin-left: 800px;
+    font-size: 72px;
+}
+.watch5proheadingBanner{
+    background-image:url(https://images.samsung.com/pk/galaxy-watch5-pro/feature/galaxy-watch5-overview-bg.jpg);
+    padding: 290px;
+}
+.watch5proheadingBanner h1{
+    font-size: 68px;
+    color: #ffffff6c;
+    margin: 80px 0px;
+    transition: 0.3s ease-in-out;
+}
+.watch5proheadingBanner h1:hover{
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.gpsroutingtext{
+    font-size: 94px;
+    margin-right: 420px;
+}
+.gainsaddupimg{
+    margin-left: 900px;
+    margin-top: 500px;
+}
+.borntoperformance h1{
+    font-size: 84px;
+}
+.responsive-navbar{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    body {
+      font-size: 14px;
+    }
+    .responsive-navbar{
+        display: block;
+    }
+  }
+
+
+@keyframes slide-in-top {
+0% {
+  transform: translateY(-50px);
+  opacity: 0;
+}
+ 100% {
+  transform: translateY(0);
+  opacity: 1;
+}
+}
+  
+  
